@@ -44,3 +44,17 @@ crazy_1 = {
     'Know place to avoid': ['Harare', 'Portugal', 'Holland']
 }
 print(crazy_1)
+
+# Tuples --> Imutable Lists
+# They do not change
+# Syntax
+# my_tuple = ()
+
+my_tuple = (2, 'Hello', 22, 'More Value')
+print(my_tuple)
+print(type(my_tuple))
+
+print(my_tuple[0])
+
+my_tuple[0] = 30
+print(my_tuple)
