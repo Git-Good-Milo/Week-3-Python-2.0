@@ -37,3 +37,21 @@ cover the following:
   10) Build API with FLASK
   
   - GIT, GITHUB, DOCUMENTATION with MARKDOWN
+  
+  ### Strings
+  - Define strings using ' ' and " "
+  - Add using .append
+  - Ad in criteria position .insert(position index, string to add)
+  
+  ### Int, Float
+  -Numbers and decimals
+  - Ypu can perform arithmetic and comparrison operators on them
+  
+  ### List
+  -Define with []
+  - Add using .append
+  - Add in a certain position using .insert(index, string to add)
+  
+  ### Dictonary
+  
+  #### Need to finish descriptions

@@ -26,14 +26,24 @@ print(crazy_ex_partners)
 
 
 # Selecting a particular record (read one)
-print(crazy_ex_partners[0])
+##print(crazy_ex_partners[0])
 
 # Edit an entry or re-assign at an Index
-crazy_ex_partners[6] = 'LAANNAA!'
-print(crazy_ex_partners[6])
+##crazy_ex_partners[6] = 'LAANNAA!'
+##print(crazy_ex_partners[6])
 
 # Lists can have many data types
 hybrid_list = ['This is a string', 12, 66, 'hello', [1,2,3], [4,5,6]]
+##print(hybrid_list)
 
 # WHat happens when you have 350000000 records?
 # Answer is loops and other methods!
+
+# Range slicing
+print(crazy_ex_partners[:1]) # 0 to 1, not inclusive of the number to the right of the ':'
+print(crazy_ex_partners[1:2]) # from 1 to 2, not inclusive of 2
+
+# Jump Slicing
+example_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(example_list[::2])
+print(example_list[1::3])
